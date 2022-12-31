@@ -1,0 +1,8 @@
+wezterm
+rectangle
+alt-tab
+firefox-developer-edition
+discord
+slack
+vlc
+visual-studio-code
