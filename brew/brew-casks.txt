@@ -8,3 +8,4 @@ discord
 slack
 vlc
 visual-studio-code
+postman
