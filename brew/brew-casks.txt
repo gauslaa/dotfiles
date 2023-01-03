@@ -9,3 +9,5 @@ slack
 vlc
 visual-studio-code
 postman
+stow
+tectonic
