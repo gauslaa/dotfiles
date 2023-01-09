@@ -1,2 +1,2 @@
 require("gauslaa.remap")
-print("Hello form Gauslaa")
+require("gauslaa.set")
