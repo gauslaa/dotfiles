@@ -11,3 +11,4 @@ visual-studio-code
 postman
 stow
 tectonic
+tmux

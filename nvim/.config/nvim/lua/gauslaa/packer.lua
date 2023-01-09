@@ -25,9 +25,8 @@ return require('packer').startup(function(use)
     use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
     use('ThePrimeagen/harpoon')
     use('mbbill/undotree')
-    use {
-  'VonHeikemen/lsp-zero.nvim',
-  requires = {
+    use {'VonHeikemen/lsp-zero.nvim',
+    requires = {
     -- LSP Support
     {'neovim/nvim-lspconfig'},
     {'williamboman/mason.nvim'},
