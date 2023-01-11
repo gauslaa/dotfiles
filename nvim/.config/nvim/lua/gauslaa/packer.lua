@@ -46,5 +46,13 @@ return require('packer').startup(function(use)
   }
 }
 
+  -- tmux & and split window nagivation
+  use ("christoomey/vim-tmux-navigator")
+
+  -- maximize and unmaximize window 
+  use ("szw/vim-maximizer")
+
+
+
 end)
 

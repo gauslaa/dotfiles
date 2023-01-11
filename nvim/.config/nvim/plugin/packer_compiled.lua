@@ -169,6 +169,16 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/gauslaa/.local/share/nvim/site/pack/packer/start/undotree",
     url = "https://github.com/mbbill/undotree"
+  },
+  ["vim-maximizer"] = {
+    loaded = true,
+    path = "/Users/gauslaa/.local/share/nvim/site/pack/packer/start/vim-maximizer",
+    url = "https://github.com/szw/vim-maximizer"
+  },
+  ["vim-tmux-navigator"] = {
+    loaded = true,
+    path = "/Users/gauslaa/.local/share/nvim/site/pack/packer/start/vim-tmux-navigator",
+    url = "https://github.com/christoomey/vim-tmux-navigator"
   }
 }
 
