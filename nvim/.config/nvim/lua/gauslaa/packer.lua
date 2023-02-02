@@ -46,12 +46,15 @@ return require('packer').startup(function(use)
   }
 }
 
-  -- tmux & and split window nagivation
+-- tmux & and split window nagivation
   use ("christoomey/vim-tmux-navigator")
 
-  -- maximize and unmaximize window 
+-- maximize and unmaximize window 
   use ("szw/vim-maximizer")
 
+  
+-- " packer.nvim
+    use ('lervag/vimtex')
 
 
 end)

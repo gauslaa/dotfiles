@@ -8,7 +8,7 @@ return {
   -- text_background_opacity = 0.3,
 
 -- Window styling
-  color_scheme = "Equilibrium Gray Light (base16)",
+  color_scheme = "BlulocoDark",
   window_background_opacity = 0.95, 
   window_padding = {
   left = "1cell",

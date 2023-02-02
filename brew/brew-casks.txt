@@ -12,3 +12,4 @@ postman
 stow
 tectonic
 tmux
+poetry
