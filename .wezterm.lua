@@ -14,8 +14,8 @@ config.color_scheme = "Rosé Pine (base16)"
 -- spacing
 config.window_padding = padding
 
--- Text and fonts 
-config.font = wezterm.font 'JetBrains Mono'
+-- Text and fonts
+config.font = wezterm.font("JetBrains Mono")
 config.font_size = 12
 config.line_height = 1.1
 
@@ -25,7 +25,6 @@ config.window_background_opacity = 0.95
 -- Tab
 config.tab_bar_at_bottom = true
 config.hide_tab_bar_if_only_one_tab = true
-
 -- Window
 config.window_decorations = "RESIZE"
 
