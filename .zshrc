@@ -36,3 +36,7 @@ unset __conda_setup
 export PATH=$PATH:/usr/local/texlive/2024/bin/universal-darwin
 export PATH=$PATH:/usr/local/texlive/2024/bin/universal-darwin
 
+export PATH="$HOME/.pyenv/bin:$PATH"
+eval "$(pyenv init --path)"
+eval "$(pyenv init -)"
+
