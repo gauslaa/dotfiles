@@ -2,6 +2,9 @@
 
 echo "Creating symbolic links for dotfiles..."
 
+# Home Brew
+brew install zsh-autosuggestions
+
 # Install Oh My Zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
