@@ -5,13 +5,11 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
+# Set up Oh My Zsh
 export ZSH="$HOME/.oh-my-zsh"
+source $ZSH/oh-my-zsh.sh
 
-    eval "$(/opt/homebrew/bin/brew shellenv)"
-
-#ZSH_THEME="rkj"
-# - Remove p10k if it is to much no
-
+# Install plugins (make sure zsh-autosuggestions is correctly added)
 plugins=(
   git
   zsh-autosuggestions
@@ -20,13 +18,17 @@ plugins=(
   history
 )
 
-# zoxide init for zsh
+# Source zsh-autosuggestions
+source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+
+# Initialize Zoxide for faster navigation
 eval "$(zoxide init zsh)"
 
-source $ZSH/oh-my-zsh.sh
-
-
+# Source Powerlevel10k theme
 source /opt/homebrew/share/powerlevel10k/powerlevel10k.zsh-theme
 
-# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+# To customize the prompt, run `p10k configure` or edit ~/.p10k.zsh
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+# Set up Homebrew environment variables
+eval "$(/opt/homebrew/bin/brew shellenv)"
